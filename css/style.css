@@ -294,6 +294,13 @@ body {
 .evidence-video {
   flex: 1.5;
   min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.evidence-video .evidence-video-player {
+  height: 500px;
+  object-fit: cover;
 }
 
 .evidence-vs {
