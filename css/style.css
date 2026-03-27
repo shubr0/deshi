@@ -362,6 +362,23 @@ body {
   color: var(--white);
 }
 
+.ba-img-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.reference-label {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
 /* === Media Placeholders === */
 .media-placeholder {
   flex: 1;
