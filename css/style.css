@@ -382,6 +382,17 @@ body {
   min-height: 0;
 }
 
+.placeholder-img {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-100);
+  color: var(--gray-500);
+  font-size: 1rem;
+  border: 1px solid var(--gray-100);
+}
+
 .evidence-video-player {
   width: 100%;
   display: block;
